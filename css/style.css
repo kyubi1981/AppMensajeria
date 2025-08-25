@@ -3,13 +3,18 @@
     padding: 0;
 }
 
-.container{
+.content{
+    
+}
+
+.contacts{
+    flex-direction: row;
     width: 100%;
     height: 300px;
     background-color: blue;
 }
 
-.aside{
+.main{
     width: 200px;
     height: 300px;
     background-color: red;
