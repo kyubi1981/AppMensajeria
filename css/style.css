@@ -36,10 +36,17 @@
 }
 
 .contact-active{
+    margin-top: 10px;
     flex: content;
     flex-direction: column;
     padding-left: 10px;
 }
+
+.contact-status{
+    color: rgb(94, 92, 92);
+    font-size: 14px;
+}
+
 
 /* - BOTON - */
 .btn{
@@ -57,6 +64,7 @@
 
 /* - COLUMNA LATERAL IZQUIERDA - */
 .user-data{
+    margin-top: 10px;
     margin-right: 35px;
     /*background-color: aqua;*/
     justify-content: left;
@@ -87,7 +95,9 @@
 }
 
 .icons{
-    margin-right: 1em;
+    color: #b5b8ba;
+    margin-top: 10px;
+    margin-right: 5px;
     display: flex;
     /*background-color: chocolate;*/
 }
