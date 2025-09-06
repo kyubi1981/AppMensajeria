@@ -9,31 +9,42 @@
 }
 
 .contacts{
+    /*display: flex;*/
     justify-content:space-around;
     align-items: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
     width: 15em;
     min-height: 100vh;
 }
 
 .contacts-data{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    padding: 1vh;
+    /*flex-direction: column;*/
     border-width: 0.1px;
     border-style: inset;
-    border-color: rgb(74, 73, 73);
+    border-color: rgb(151, 149, 149);
 }
 
 .contact-avatar-active img{
+    margin-left: 10px;
     width: 40px;
     border-radius: 50%;
     aspect-ratio: 1; /* Se ajusta al mismo valor que el width */
     object-fit: cover;
 }
 
+.contact-active{
+    flex: content;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+/* - BOTON - */
 .btn{
-    margin: 30px;  
-    height: 40px;
+    margin: 35px;  
+    height: 35px;
     background-color: mediumpurple;
     color: white;
     align-content: center;
@@ -44,26 +55,46 @@
     font-size: 10px;
 }
 
+/* - COLUMNA LATERAL IZQUIERDA - */
 .user-data{
+    margin-right: 35px;
+    /*background-color: aqua;*/
+    justify-content: left;
     flex-direction: row;
 }
 
+/* - DIV CONTENEDOR DE IMAGEN CONTACTO - */
+.contact-avatar{
+    /*background-color: rgb(209, 86, 174);*/
+}
+
 .contact-avatar img{
+    margin-left: 10px;
     width: 40px;
     border-radius: 50%;
     aspect-ratio: 1; /* Se ajusta al mismo valor que el width */
     object-fit: cover;
 }
 
+.contact-name{
+    color: rgb(44, 43, 43);
+    font-size: 15px;
+}
+
 .contact-detail{
-    color: rgb(65, 65, 61);
+    color: rgb(94, 92, 92);
+    font-size: 14px;
 }
 
 .icons{
-    background-color: chocolate;
+    margin-right: 1em;
+    display: flex;
+    /*background-color: chocolate;*/
 }
 
 
+
+/* - SECCION LATERAL DERECHA MAIN - */
 .main img{
     padding: 10px;
     height: 200px;
